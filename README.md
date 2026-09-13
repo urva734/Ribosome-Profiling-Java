@@ -1,18 +1,24 @@
-# Ribosome Profiling Simulation in Java
+# 🧬 Ribosome Profiling Simulation in Java
 
 A console-based Java program that simulates ribosome density mapping on an mRNA sequence. This is similar to how real Ribosome Profiling / Ribo-Seq works in bioinformatics.
 
-## Author
-Urva Sohail
+## 👤 Author
+**Urva Sohail**
 
-## Features
-- **User Input**: Enter any mRNA sequence A,T,C,G
-- **Custom Positions**: Enter ribosome positions at runtime
-- **Validation**: Handles invalid bases and out-of-range positions
-- **Visualization**: Bar graph visualization of ribosome density using `*`
-- **Density Array**: Prints final density array for data analysis
+## ✨ Features
+- **⌨️ User Input**: Enter any mRNA sequence A,T,C,G
+- **📍 Custom Positions**: Enter ribosome positions at runtime
+- **✅ Validation**: Handles invalid bases and out-of-range positions
+- **📊 Visualization**: Bar graph visualization of ribosome density using `*`
+- **🧮 Density Array**: Prints final density array for data analysis
 
-## How to Run
+## 💻 Technologies Used
+- **Java 8+**: Core programming language
+- **Scanner**: For user input handling
+- **Arrays**: For density calculation and storage
+- **Console I/O**: For interactive command-line interface
+
+## 🚀 How to Run
 
 ### Using NetBeans / IntelliJ
 1. Create new Java Project
@@ -22,7 +28,7 @@ Urva Sohail
 ## Run
 java RiboProfilingAnalysis
 
-## Sample Input & Output
+## 📥 Sample Input & Output 
 ### Input
 Enter mRNA Sequence: ATGGCCATTGTA
 Enter ribosome positions separated by spaces: 0 3 6 9
@@ -46,14 +52,14 @@ Position  9 (G): 1 ribosome(s) *
 
 ### Final Density Array: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0]
 
-## How It Works
+## ⚙️ How It Works
 The program creates a density array of size = mRNA lengthFor each ribosome position entered,
 it increments that indexIt then prints which positions have ribosomes and visualizes it
 
-## Future Improvements
+## 🔮 Future Improvements
 - [ ] Read input from.fasta file
 - [ ] Calculate codon-level density instead of base-level
 - [ ] Export results to CSV for data analysis
 
-## Screenshot of Output
+## 📸 Screenshot of Output
 ![Ribosome Profiling Output](Ribo-Profiling-Output.png)
