@@ -54,3 +54,6 @@ it increments that indexIt then prints which positions have ribosomes and visual
 - [ ] Read input from.fasta file
 - [ ] Calculate codon-level density instead of base-level
 - [ ] Export results to CSV for data analysis
+
+## Screenshot of Output
+![Ribosome Profiling Output](Ribo-Profiling-Output.png)
