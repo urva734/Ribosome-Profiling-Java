@@ -41,7 +41,7 @@ Ribosome added at position: 3
 Ribosome added at position: 6
 Ribosome added at position: 9
 mRNA Sequence with positions:
- 0:A , 1:T , 2:G 3:G  4:C  5:C 6:A 7:T 8:T 9:G 10:T 11:A 
+ 0:A , 1:T , 2:G , 3:G , 4:C  5:C 6:A 7:T 8:T 9:G 10:T 11:A 
 
 ### Ribosome Density Visualization 
 Position  0 (A): 1 ribosome(s) *
